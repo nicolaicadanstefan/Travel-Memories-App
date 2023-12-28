@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TravelMemories" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Your theme customization -->
+    </style>
+
+    <style name="Theme.TravelMemories.MySplash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/app_icon_without_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.TravelMemories</item>
+    </style>
+</resources>
