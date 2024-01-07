@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.TravelMemories" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Your theme customization -->
+        <!-- Light theme customization -->
     </style>
 
     <style name="Theme.TravelMemories.MySplash" parent="Theme.AppCompat.Light.NoActionBar">
