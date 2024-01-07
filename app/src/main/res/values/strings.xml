@@ -7,4 +7,6 @@
     <string name="pyramid">pyramid</string>
     <string name="crocodile">crocodile</string>
     <string name="palm">palm</string>
+    <string name="menu_drawer_icon">menu drawer icon</string>
+    <string name="icon_for_adding_a_memory">icon for adding a memory</string>
 </resources>
