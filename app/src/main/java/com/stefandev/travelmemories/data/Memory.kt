@@ -8,7 +8,7 @@ import java.util.Date
 data class Memory (
     @PrimaryKey(autoGenerate = true)
     val id: Int,
-    val placeName: String,
+    val memoryName: String,
     val date: Date,
     val location: String,
     val favorite: Boolean

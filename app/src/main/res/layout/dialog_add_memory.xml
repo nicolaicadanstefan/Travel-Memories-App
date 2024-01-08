@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- For each layout component use material design for a more appealing page-->
+
+    <!-- Memory Name Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/memory_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editMemoryName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Date Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/date_input_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editDate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="date" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Location Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/location">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editLocation"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Favorite Checkbox -->
+    <CheckBox
+        android:id="@+id/checkBoxFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/favorite" />
+
+    <!-- Save Memory Button -->
+    <Button
+        android:id="@+id/buttonSaveMemory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_memory" />
+</LinearLayout>

@@ -9,4 +9,9 @@
     <string name="palm">palm</string>
     <string name="menu_drawer_icon">menu drawer icon</string>
     <string name="icon_for_adding_a_memory">icon for adding a memory</string>
+    <string name="memory_name">Memory Name</string>
+    <string name="location">Location</string>
+    <string name="date_input_text">Date (e.g., 2021-12-31)</string>
+    <string name="favorite">Favorite</string>
+    <string name="save_memory">Save Memory</string>
 </resources>
