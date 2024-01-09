@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -53,6 +54,19 @@
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:text="@string/favorite" />
+
+    <!-- Details Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/details">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editDetails"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Save Memory Button -->
     <Button

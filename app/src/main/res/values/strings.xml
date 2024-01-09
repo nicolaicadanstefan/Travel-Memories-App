@@ -14,4 +14,10 @@
     <string name="date_input_text">Date (e.g., 2021-12-31)</string>
     <string name="favorite">Favorite</string>
     <string name="save_memory">Save Memory</string>
+    <string name="details">Details</string>
+    <string name="details_recycle">Details</string>
+    <string name="location_recycle">Location</string>
+    <string name="Date">Date</string>
+    <string name="memory_name_recycle">Memory Name</string>
+    <string name="memory_image">memory image</string>
 </resources>

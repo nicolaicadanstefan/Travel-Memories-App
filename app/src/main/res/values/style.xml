@@ -10,4 +10,9 @@
         <item name="postSplashScreenTheme">@style/Theme.TravelMemories</item>
         <item name="android:statusBarColor">@color/black</item>
     </style>
+
+    <style name="CustomDialogStyle">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+    </style>
 </resources>

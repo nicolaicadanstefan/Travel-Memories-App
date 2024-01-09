@@ -11,5 +11,6 @@ data class Memory (
     val memoryName: String,
     val date: Date,
     val location: String,
+    val details: String,
     val favorite: Boolean
 )
