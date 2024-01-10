@@ -38,7 +38,7 @@ class FirstActivity : AppCompatActivity() {
                 .scaleY(0.6f) // Shrink the logo to 60% of its original size
                 .setDuration(500)
                 .withEndAction {
-                    Log.d("Button Animation","Animation completed!") // TESTING BUTTON APPEARANCE
+                    Log.d("Button Animation", "Animation completed!") // TESTING BUTTON APPEARANCE
                     // Start button animation
                     startButton.alpha = 0f // button is fully transparent
                     startButton.visibility = View.VISIBLE
