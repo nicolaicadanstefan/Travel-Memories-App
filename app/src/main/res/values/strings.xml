@@ -11,7 +11,7 @@
     <string name="icon_for_adding_a_memory">icon for adding a memory</string>
     <string name="memory_name">Memory Name</string>
     <string name="location">Location</string>
-    <string name="date_input_text">Date (e.g., 2021-12-31)</string>
+    <string name="date_input_text">Date (e.g., 31-12-2021)</string>
     <string name="favorite">Favorite</string>
     <string name="save_memory">Save Memory</string>
     <string name="details">Details</string>
@@ -20,4 +20,8 @@
     <string name="Date">Date</string>
     <string name="memory_name_recycle">Memory Name</string>
     <string name="memory_image">memory image</string>
+    <string name="delete_all">delete_all</string>
+    <string name="weather">Weather</string>
+    <string name="memories_count">Memories: 0</string>
+    <string name="delete_button">delete button</string>
 </resources>

@@ -13,4 +13,7 @@ interface MemoryDao {
 
     @Query("SELECT * FROM memory_table ORDER BY id ASC")
     fun readAllData(): LiveData<List<Memory>>
+
+    @Query("DELETE FROM memory_table")
+    suspend fun deleteAllMemories()
 }

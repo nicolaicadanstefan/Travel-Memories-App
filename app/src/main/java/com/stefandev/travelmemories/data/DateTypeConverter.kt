@@ -12,6 +12,7 @@ class DateTypeConverter {
             Date(it)
         }
     }
+
     // From Date->Long
     @TypeConverter
     fun dateToTimestamp(date: Date?): Long? {

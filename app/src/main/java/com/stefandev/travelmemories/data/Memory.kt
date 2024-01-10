@@ -5,7 +5,7 @@ import androidx.room.PrimaryKey
 import java.util.Date
 
 @Entity(tableName = "memory_table")
-data class Memory (
+data class Memory(
     @PrimaryKey(autoGenerate = true)
     val id: Int,
     val memoryName: String,

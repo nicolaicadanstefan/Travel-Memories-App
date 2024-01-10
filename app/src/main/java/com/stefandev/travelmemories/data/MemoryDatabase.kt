@@ -9,17 +9,18 @@ import androidx.room.TypeConverters
 
 @Database(entities = [Memory::class], version = 1, exportSchema = false)
 @TypeConverters(DateTypeConverter::class)
-abstract class MemoryDatabase: RoomDatabase() {
+abstract class MemoryDatabase : RoomDatabase() {
     abstract fun memoryDao(): MemoryDao
-    companion object{
+
+    companion object {
         @Volatile
         private var INSTANCE: MemoryDatabase? = null
-        fun getDatabase(context: Context): MemoryDatabase{
+        fun getDatabase(context: Context): MemoryDatabase {
             val tempInstance = INSTANCE
-            if(tempInstance != null){
+            if (tempInstance != null) {
                 return tempInstance
             }
-            synchronized(this){
+            synchronized(this) {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     MemoryDatabase::class.java,
